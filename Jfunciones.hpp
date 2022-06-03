@@ -11,3 +11,6 @@
 void limpiarCadena(char*, int);
 void limpiarBuffer(Stream*);
 void setTimer1WGM(uint8_t );
+void setTimer1PRE(uint8_t);
+void setOC1A(uint8_t nibble);
+void setOC1B(uint8_t nibble);
